@@ -273,6 +273,21 @@ header {
   padding-bottom: 20vh;
 }
 
+.homepage-hero {
+  margin: 10px auto;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  background: url("../images/headshot.jpg");
+  background-size: cover;
+  background-position: right;
+  background-color: #f4f4f4;
+}
+
+  .herocontent {
+    background-color: transparent;
+    display: inline-block;
+  }
+
 /* ==== HEADER & NAVIGATION ====*/
 
 footer {
@@ -541,6 +556,22 @@ blockquote {
 
 }
 
+@media (max-width: 56em) {
+
+  .homepage-hero {
+  margin: 10px auto;
+  padding-top: 45vh;
+  padding-bottom: 1px;
+  background-size: cover;
+  }
+
+  .herocontent {
+  background-color: #fff;
+  padding: 10px 15px 0px 15px;
+  }
+
+}
+
 @media (max-width: 43.75em) {
 
   .service-box {
@@ -587,6 +618,29 @@ blockquote {
   display: none;
   }
 
+  .homepage-hero {
+  margin: 10px auto;
+  padding-top: 45vh;
+  padding-bottom: 1px;
+  background-size: cover;
+  }
 
+  .herocontent {
+    background-color: #fff;
+    padding: 10px 15px 0px 15px;
+  }
+
+
+}
+
+
+@media (max-width: 30em) {
+    .homepage-hero {
+    margin: 10px auto;
+    padding-top: 45vh;
+    background-position: -30em;
+    background-size: cover;
+    background-repeat: none;
+  }
 
 }
