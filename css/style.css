@@ -1,29 +1,24 @@
 /* ==== FONTS ====*/
 
-<link href="https://fonts.googleapis.com/css?family=Montserrat:800|Open+Sans" rel="stylesheet"> 
-
-
-
-
-
-
-/* ==== BODY ====*/
-
-
-body {
+<link
+  href="https://fonts.googleapis.com/css?family=Montserrat:800|Open+Sans"
+  rel="stylesheet"
+  > /* ==== BODY ====*/
+  body {
   font-size: 100%;
 }
 
-body, h1, h2, h3, h4, h5, h6 {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size-adjust: 0.5;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #111;
 }
-
-
-
-
-
 
 /* ==== HIGHLIGHTING ====*/
 
@@ -37,13 +32,7 @@ body, h1, h2, h3, h4, h5, h6 {
   background: #111; /* Gecko Browsers */
 }
 
-
-
-
-
-
 /* ==== GRID & CONTAINERS ====*/
-
 
 .container {
   display: grid;
@@ -63,40 +52,53 @@ body, h1, h2, h3, h4, h5, h6 {
   height: 4em;
 }
 
-.col-2 {
-  grid-column: span 2;
-  margin-left: .5em;
-  margin-right: .5em;
-  padding: .5em;
+.service-box {
+  grid-column: span 3;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 0.5em;
 }
 
+.col-2 {
+  grid-column: span 2;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 0.5em;
+}
 
 .col-3 {
   grid-column: span 3;
-  margin-left: .5em;
-  margin-right: .5em;
-  padding: .5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 0.5em;
+}
+
+.col-4 {
+  grid-column: span 4;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 0.5em;
 }
 
 .col-6 {
   grid-column: span 6;
-  margin-left: .5em;
-  margin-right: .5em;
-  padding: .5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 0.5em;
 }
 
 .col-8 {
   grid-column: span 8;
-  margin-left: .5em;
-  margin-right: .5em;
-  padding: .5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 0.5em;
 }
 
 .col-12 {
   grid-column: span 12;
-  margin-left: .5em;
-  margin-right: .5em;
-  padding: .5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 0.5em;
 }
 
 .footer {
@@ -109,42 +111,81 @@ body, h1, h2, h3, h4, h5, h6 {
   margin: 10px auto;
 }
 
-
-
-
-
-
 /* ==== LINKS ====*/
 
-a, a:link, a:visited {
-    background-color: transparent;
-    color: #111;
-    text-decoration: none;
-    border-bottom: 1px dotted #111;
-    -webkit-box-shadow: inset 0 -4px 0 #E8E8E8;
-    box-shadow: inset 0 -4px 0 #E8E8E8;
-    overflow-wrap: break-word;
-    word-break: break-word;
-    word-wrap: break-word;
-    transition: all ease 500ms;
+
+a,
+a:link,
+a:visited {
+  background-color: transparent;
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px dotted #111;
+  -webkit-box-shadow: inset 0 -4px 0 #e8e8e8;
+  box-shadow: inset 0 -4px 0 #e8e8e8;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  word-wrap: break-word;
+  transition: all ease 500ms;
 }
 
 a:hover {
-    transition: all ease 500ms;
-    -webkit-box-shadow: inset 0 -1.33em 0 #f4f4f4;
-    box-shadow: inset 0 -1.33em 0 #f4f4f4;
-    color: #111;
-    border-bottom: 1px solid #111;
-    cursor: crosshair;
+  transition: all ease 500ms;
+  -webkit-box-shadow: inset 0 -1.33em 0 #f4f4f4;
+  box-shadow: inset 0 -1.33em 0 #f4f4f4;
+  color: #111;
+  border-bottom: 1px solid #111;
+  cursor: crosshair;
 }
 
+a.logo {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  float: left;
+  border: none;
+  box-shadow: none;
+  background-color: none;
+  margin-right: 1em;
+}
 
+a.logo:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 
+a.footer-icon:hover {
+  opacity: 0.5;
+}
 
+a.footer-icon {
+  position: relative;
+  display: inline-block;
+  width: 1.25em;
+  float: left;
+  border: none;
+  box-shadow: none;
+  background-color: none;
+  margin-right: 2em;
+}
 
+a.footer-icon:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 
+a.footer-icon:hover {
+  opacity: 0.5;
+}
 /* ==== DIVIDER ====*/
-
 
 hr {
   color: transparent;
@@ -153,17 +194,12 @@ hr {
   border-top: 1px dotted #111;
 }
 
-
-
-
-
-
 /* ==== HEADER & NAVIGATION ====*/
 
 header {
-	background-color: #111;
-	color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  background-color: #111;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   letter-spacing: 0.1em;
   font-weight: 700;
@@ -172,10 +208,9 @@ header {
   padding: 0px 1em;
 }
 
-
 #navigationBar {
-  background:#111;
-  height:48px;
+  background: #111;
+  height: 48px;
   padding-left: 1em;
   padding-right: 1em;
   margin: 0px auto;
@@ -183,92 +218,106 @@ header {
 }
 
 #navigationBar > ul > li {
-  display:inline;
+  display: inline;
   margin: 0px;
 }
 
 #navigationBar > ul > li > a {
-  color:#fff;
+  color: #fff;
   font-size: 14px;
   font-weight: 800;
-  display:inline-block;
-  line-height:48px;
+  display: inline-block;
+  line-height: 48px;
   padding: 0px 15px;
-  text-decoration:none;
+  text-decoration: none;
   box-shadow: none;
   border: none;
   transition: all ease 500ms;
 }
 
 #navigationBar > ul > li > a:hover {
-  color:#666;
+  color: #666;
   box-shadow: none;
-  border:none;
+  border: none;
   margin: 0px;
+  transition: all ease 500ms;
+}
+
+#logo-title a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  display: inline-block;
+  line-height: 48px;
+  padding: 0px;
+  margin-right: 2em;
+  text-decoration: none;
+  box-shadow: none;
+  border: none;
+  transition: all ease 500ms;
+  float: left;
+  text-transform: uppercase;
+}
+
+#logo-title a:hover {
+  color: #666;
+  box-shadow: none;
+  border: none;
   transition: all ease 500ms;
 }
 
 .hero {
   margin: 10px auto;
   background-color: #eee;
-  padding-top: 15vh;
-  padding-bottom: 15vh;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
-
-
-
-
-
 
 /* ==== HEADER & NAVIGATION ====*/
 
 footer {
   background-color: #111;
+  height: 32px;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   letter-spacing: 0.1em;
-  padding: 15px;
+  padding: 1em 1em 0em 1em;
   font-weight: 700;
   margin-top: 50px;
 }
-
-
-
-
-
 
 /* ==== IMAGES ====*/
 
 img {
   display: block;
-	max-width: 100%;
+  max-width: 100%;
   transition: all ease-in-out 500ms;
 }
 
- a:hover img {
+a:hover img {
   transition: all ease-in-out 500ms;
   transform: scale(1.02);
- }
+}
 
-
-
-
-
+.client-logo {
+  width: 100%;
+  max-width: 150px;
+}
 
 /* ==== LISTS ====*/
 
-ul, ol {
-	padding-left: 0;
-	margin-left: 0;
-	list-style-position: inside;
-	list-style-type: circle;
+ul,
+ol {
+  padding-left: 0;
+  margin-left: 0;
+  list-style-position: inside;
+  list-style-type: circle;
 }
-
 
 ul.services {
   list-style-type: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   line-height: 1.25;
   font-weight: 300;
@@ -280,44 +329,34 @@ li.services {
   margin: 0.5em 0;
 }
 
-
-
-
-
-
 /* ==== BUTTONS ====*/
 
 .primarybutton {
   padding: 15px 25px;
   border: 1px solid #111;
   color: #111;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   float: left;
   font-size: 1em;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   transition: all ease 500ms;
 }
 
 .primarybutton:hover {
   transition: all ease 500ms;
   border: 1px solid #111;
-  color: #FFF;
+  color: #fff;
   background-color: #111;
-  -webkit-box-shadow: 0 15px 20px rgba(0,0,0,0.25);
-  box-shadow: 0 15px 20px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
   cursor: crosshair;
 }
 
-
-
-
-
-
 /* ==== FORM FIELDS ====*/
 
-.hello{
+.hello {
   display: block;
   color: #111;
   font-size: 14px;
@@ -325,39 +364,35 @@ li.services {
   pointer-events: none;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 
-textarea, input { 
+textarea,
+input {
   outline: none;
   border: 0;
   border-bottom: 1px dotted #111;
   height: 32px;
   width: 100%;
-  box-shadow: inset 0 -4px 0 #E8E8E8;
+  box-shadow: inset 0 -4px 0 #e8e8e8;
   font-size: 14px;
   margin-bottom: 25px;
   margin-top: 4px;
   transition: all ease 500ms;
 }
 
-input:focus{
+input:focus {
   transition: all ease 500ms;
   border-bottom: 1px solid #111;
 }
 
-input:hover{
+input:hover {
   transition: all ease 500ms;
   box-shadow: none;
   box-shadow: inset 0 -8px 0 #f4f4f4;
   border-bottom: 1px solid #111;
   cursor: crosshair;
 }
-
-
-
-
-
 
 /* ==== TYPOGRAPHY ====*/
 
@@ -371,7 +406,7 @@ p {
 /* ==== H1 HEADINGS ====*/
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2em;
   /* 2x body copy size = 32px */
   line-height: 1.25;
@@ -381,7 +416,7 @@ h1 {
 /* ==== H2 HEADINGS ====*/
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.625em;
   /* 1.625x body copy size = 26px */
   line-height: 1.15384615;
@@ -391,7 +426,7 @@ h2 {
 /* ==== H3 HEADINGS ====*/
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.375em;
   /* 1.375x body copy size = 22px */
   line-height: 1.13636364;
@@ -401,7 +436,7 @@ h3 {
 /* ==== H4 HEADINGS ====*/
 
 h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.125em;
   /* 1.125x body copy size = 18px */
   line-height: 1.11111111;
@@ -410,7 +445,7 @@ h4 {
 /* ==== H5 HEADINGS (DISCLAIMER TEXT) ====*/
 
 h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   line-height: 1.25;
   font-weight: 300;
@@ -418,33 +453,23 @@ h5 {
   margin: 1em 0 2em 0;
 }
 
-
-
-
-
-
 /* ==== PORTFOLIO TAG ====*/
 
 .portfolioTag {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1em;
   /* 1.125x body copy size = 18px */
   line-height: 1;
   font-weight: 800;
   text-transform: uppercase;
-  display:inline;
+  display: inline;
   margin: 1.5em 1.5em 0px 0px;
 }
-
-
-
-
-
 
 /* ==== BLOCKQUOTE ====*/
 
 blockquote {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.25em;
   /* 20px / 16px */
   line-height: 1.25;
@@ -458,15 +483,9 @@ blockquote {
   max-width: 680px;
 }
 
-
-
-
-
-
 /* ==== MEDIA QUERIES ====*/
 
 @media (min-width: 43.75em) {
-
   h1 {
     font-size: 2.5em;
     /* 2.5x body copy size = 40px */
@@ -496,11 +515,9 @@ blockquote {
     line-height: 1.45833333;
     /* 35px / 24px */
   }
-
 }
 
 @media (min-width: 56.25em) {
-
   h1 {
     font-size: 3em;
     /* 3x body copy size = 48px */
@@ -520,17 +537,28 @@ blockquote {
     /* 1.75x body copy size = 28px */
     line-height: 1.25;
   }
+
+
 }
 
 @media (max-width: 43.75em) {
 
-  .col-2 {
+  .service-box {
     grid-column: span 6;
   }
 
 
+  .col-2 {
+    grid-column: span 4;
+  }
+
   .col-3 {
-    grid-column: span 6;
+    grid-column: span 12;
+  }
+
+  .col-4 {
+    grid-column: span 12;
+    margin-bottom: 1em;
   }
 
   .col-6 {
@@ -543,17 +571,22 @@ blockquote {
   }
 
   .gap {
-  grid-column: span 12;
-  width: 100%;
-  margin: 0 auto;
-  height: 1em;
-}
+    grid-column: span 12;
+    width: 100%;
+    margin: 0 auto;
+    height: 1em;
+  }
+
+  #navigationBar > ul > li > a {
+  font-size: 14px;
+  padding: 0px 5px;
+
+  }
+
+  #logo-title a {
+  display: none;
+  }
+
+
 
 }
-
-
-
-
-
-
-
