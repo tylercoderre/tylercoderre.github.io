@@ -59,6 +59,10 @@ h6 {
   padding: 0.5em;
 }
 
+.1-col-gap {
+  grid-column: span 1;
+}
+
 .col-2 {
   grid-column: span 2;
   margin-left: 0.5em;
@@ -308,6 +312,14 @@ img {
   display: block;
   max-width: 100%;
   transition: all ease-in-out 500ms;
+}
+
+.webpage-showcase {
+  width: 100%; 
+  max-width: 720px; 
+  border: 1px solid #eee;
+  margin: 0 auto;
+
 }
 
 a:hover img {
@@ -578,6 +590,9 @@ blockquote {
     grid-column: span 6;
   }
 
+  .1-col-gap {
+    display:none;
+  }
 
   .col-2 {
     grid-column: span 4;
