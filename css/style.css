@@ -130,7 +130,6 @@ a:visited {
   overflow-wrap: break-word;
   word-break: break-word;
   word-wrap: break-word;
-  transition: all ease 500ms;
 }
 
 a:hover {
