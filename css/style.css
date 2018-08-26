@@ -1,5 +1,23 @@
-/* ==== FONTS ====*/
+/*! ===== FONTS ===== */
 
+<<<<<<< HEAD
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('../fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratextrabold_italic';
+    src: url('../fonts/montserrat-extrabolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+=======
 <link
   href="https://fonts.googleapis.com/css?family=Montserrat:800|Open+Sans"
   rel="stylesheet"
@@ -25,13 +43,34 @@ h6 {
 ::selection {
   color: #fff;
   background: #111; /* WebKit/Blink Browsers */
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
 }
 
-::-moz-selection {
-  color: #fff;
-  background: #111; /* Gecko Browsers */
+@font-face {
+    font-family: 'montserratitalic';
+    src: url('../fonts/montserrat-italic-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+<<<<<<< HEAD
 }
 
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+/*! ===== COLORS ===== */
+=======
 /* ==== GRID & CONTAINERS ====*/
 
 .container {
@@ -40,18 +79,36 @@ h6 {
   margin: 10px auto;
   max-width: 1400px;
 }
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
 
-.header {
-  grid-column: span 12;
+.bg-dark {
+    background-color: #111 !important;
 }
 
-.gap {
-  grid-column: span 12;
-  width: 100%;
-  margin: 0 auto;
-  height: 4em;
+
+<<<<<<< HEAD
+
+
+/*! ===== FONTS ===== */
+body {
+  font-size: 100%;
 }
 
+body, h1, h2, h3, h4, h5, h6 {
+  color: #111;
+  font-style : normal;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #111;
+  font-weight: 300;
+  font-size: 16px
+}
+
+b, strong {
+    font-family: 'montserratextrabold';
+=======
 .service-box {
   grid-column: span 3;
   margin-left: 0.5em;
@@ -103,18 +160,57 @@ h6 {
   margin-left: 0.5em;
   margin-right: 0.5em;
   padding: 0.5em;
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
 }
 
-.footer {
-  grid-column: span 12;
+
+.navbar-dark .navbar-nav .nav-link {
+color: #fff;
+font-family: "montserratextrabold", sans-serif;
+font-size: 14px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+line-height: 14px;
 }
 
-.fullwidth {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  margin: 10px auto;
+<<<<<<< HEAD
+
+/* ==== ROWS ====*/
+
+.row {
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
 
+body {
+  margin: .5em;
+}
+
+.headlineRow {
+  margin: 4em auto 2em auto;
+}
+
+.homepage-hero {
+  background-color: #f4f4f4;
+}
+
+.col-sm-6 {
+  width: 50%;
+}
+
+.gap {
+  width: 100%;
+  margin: 0 auto;
+  height: 4em;
+}
+
+hr {
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px 0px;
+  border: none;
+  border-top: 1px dotted #111;
+=======
 /* ==== LINKS ====*/
 
 
@@ -244,6 +340,7 @@ header {
   border: none;
   margin: 0px;
   transition: all ease 500ms;
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
 }
 
 #logo-title a {
@@ -270,6 +367,29 @@ header {
 }
 
 .hero {
+<<<<<<< HEAD
+  padding: 20vh 0;
+  background-image: linear-gradient(transparent 0px, transparent 2px, rgb(255, 255, 255) 2px, rgb(255, 255, 255) 20px), linear-gradient(to right, rgb(200, 195, 199) 0px, rgb(200, 195, 199) 2px, rgb(255, 255, 255) 2px, rgb(255, 255, 255) 20px);
+  background-position: -233px -2px;
+  background-size: 20px 20px;
+  user-select: none;
+}
+
+.dot-grid {
+  background-image: linear-gradient(transparent 0px, transparent 2px, rgb(255, 255, 255) 2px, rgb(255, 255, 255) 20px), linear-gradient(to right, rgb(200, 195, 199) 0px, rgb(200, 195, 199) 2px, rgb(255, 255, 255) 2px, rgb(255, 255, 255) 20px);
+  background-position: -233px -2px;
+  background-size: 20px 20px;
+  user-select: none;
+}
+
+.webpage-description-box {
+  padding: 4em 2em;
+  background-image: linear-gradient(transparent 0px, transparent 2px, rgb(255, 255, 255) 2px, rgb(255, 255, 255) 20px), linear-gradient(to right, rgb(200, 195, 199) 0px, rgb(200, 195, 199) 2px, rgb(255, 255, 255) 2px, rgb(255, 255, 255) 20px);
+  background-position: -233px -2px;
+  background-size: 20px 20px;
+  user-select: none;
+}
+=======
   margin: 10px auto;
   background-color: #eee;
   padding-top: 20vh;
@@ -290,11 +410,26 @@ header {
     background-color: transparent;
     display: inline-block;
   }
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
 
 /* ==== HEADER & NAVIGATION ====*/
 
 footer {
   background-color: #111;
+<<<<<<< HEAD
+  height: 48px;
+  color: #fff;
+  font-family: "montserratextrabold", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  padding: 1em 1em 0em 1em;
+  margin-top: 0 auto;
+}
+
+
+
+
+=======
   height: 32px;
   color: #fff;
   font-family: "Montserrat", sans-serif;
@@ -305,19 +440,30 @@ footer {
   margin-top: 50px;
 }
 
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
 /* ==== IMAGES ====*/
 
 img {
   display: block;
   max-width: 100%;
   transition: all ease-in-out 500ms;
+  margin-bottom: 1em;
 }
 
 .webpage-showcase {
   width: 100%; 
   max-width: 720px; 
-  border: 1px solid #eee;
+  border: 4px solid #f4f4f4;
   margin: 0 auto;
+
+}
+
+<<<<<<< HEAD
+.fullwidth-showcase {
+  border: 1px solid #f4f4f4;
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2em;
 
 }
 
@@ -331,6 +477,42 @@ a:hover img {
   max-width: 150px;
 }
 
+=======
+.webpage-showcase {
+  width: 100%; 
+  max-width: 720px; 
+  border: 1px solid #eee;
+  margin: 0 auto;
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
+
+}
+
+a:hover img {
+  transition: all ease-in-out 500ms;
+  transform: scale(1.02);
+}
+
+.client-logo {
+  width: 100%;
+  max-width: 150px;
+}
+
+/* ==== HIGHLIGHTING ====*/
+
+::selection {
+  color: #fff;
+  background: #111; /* WebKit/Blink Browsers */
+}
+
+<<<<<<< HEAD
+::-moz-selection {
+  color: #fff;
+  background: #111; /* Gecko Browsers */
+}
+
+
+
+
 /* ==== LISTS ====*/
 
 ul,
@@ -343,7 +525,20 @@ ol {
 
 ul.services {
   list-style-type: none;
+  font-family: "montserratregular", sans-serif;
+=======
+ul,
+ol {
+  padding-left: 0;
+  margin-left: 0;
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
+ul.services {
+  list-style-type: none;
   font-family: "Montserrat", sans-serif;
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
   font-size: 12px;
   line-height: 1.25;
   font-weight: 300;
@@ -355,6 +550,129 @@ li.services {
   margin: 0.5em 0;
 }
 
+<<<<<<< HEAD
+
+
+
+/* ==== PORTFOLIO ====*/
+
+.portfolioTag {
+  font-family: "montserratextrabold", sans-serif;
+  font-size: 1em;
+  /* 1.125x body copy size = 18px */
+  line-height: 1;
+  text-transform: uppercase;
+  display: inline;
+  margin: 1.5em 1.5em 0px 0px;
+  letter-spacing: 0.05em;
+}
+
+.viewproject{
+  cursor: url("../images/cursors/view-project.png"), auto;
+}
+
+.portfolioFeatured {
+  margin-bottom: 4em;
+}
+
+/* ==== LINKS ====*/
+
+a.logo {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  float: left;
+  border: none;
+  box-shadow: none;
+  background-color: none;
+  margin-right: 1em;
+  margin-top: -11px;
+}
+
+a.logo:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+a.footer-icon:hover {
+  opacity: 0.5;
+}
+
+a.footer-icon {
+  position: relative;
+  display: inline-block;
+  width: 1.25em;
+  float: left;
+  border: none;
+  box-shadow: none;
+  background-color: none;
+  margin-right: 2em;
+}
+
+a.footer-icon:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+a.footer-icon:hover {
+  opacity: 0.5;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-family: "montserratextrabold", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    line-height: 14px;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-family: "montserratextrabold", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    line-height: 14px;
+    border: none;
+    box-shadow: none;
+}
+
+
+/*! ===== BUTTONS ===== */
+
+.btn {
+  font-family: "montserratextrabold", sans-serif;
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: 1em 2em;
+  font-size: 14px;
+  letter-spacing: .1em;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn-primary {
+  color: #111;
+  background-color: #fff;
+  border: 1px solid #111;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+}
+
+.btn-primary:hover {
+=======
 /* ==== BUTTONS ====*/
 
 .primarybutton {
@@ -404,22 +722,49 @@ input {
   font-size: 14px;
   margin-bottom: 25px;
   margin-top: 4px;
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
   transition: all ease 500ms;
+  border: 1px solid #111;
+  color: #fff;
+  background-color: #111;
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
 }
 
+<<<<<<< HEAD
+.btn-secondary {
+  border: 1px solid #111;
+  color: #fff;
+  background-color: #111;
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+.btn-secondary:hover {
+=======
 input:focus {
   transition: all ease 500ms;
   border-bottom: 1px solid #111;
 }
 
 input:hover {
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
   transition: all ease 500ms;
-  box-shadow: none;
-  box-shadow: inset 0 -8px 0 #f4f4f4;
-  border-bottom: 1px solid #111;
-  cursor: crosshair;
+  border: 1px solid #111;
+  color: #fff;
+  background-color: #333;
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
 }
 
+<<<<<<< HEAD
+
+
+
+
+=======
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
 /* ==== TYPOGRAPHY ====*/
 
 /* ==== PARAGRAPH MAX-WIDTH READABILITY ====*/
@@ -432,53 +777,136 @@ p {
 /* ==== H1 HEADINGS ====*/
 
 h1 {
+<<<<<<< HEAD
+  font-family: "montserratextrabold", sans-serif;
+=======
   font-family: "Montserrat", sans-serif;
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
   font-size: 2em;
   /* 2x body copy size = 32px */
   line-height: 1.25;
   /* 45px / 36px */
+  letter-spacing: .05em;
 }
 
 /* ==== H2 HEADINGS ====*/
 
 h2 {
+<<<<<<< HEAD
+  font-family: "montserratextrabold", sans-serif;
+=======
   font-family: "Montserrat", sans-serif;
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
   font-size: 1.625em;
   /* 1.625x body copy size = 26px */
   line-height: 1.15384615;
   /* 30px / 26px */
+  letter-spacing: .05em;
 }
 
 /* ==== H3 HEADINGS ====*/
 
 h3 {
+<<<<<<< HEAD
+  font-family: "montserratextrabold", sans-serif;
+=======
   font-family: "Montserrat", sans-serif;
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
   font-size: 1.375em;
   /* 1.375x body copy size = 22px */
   line-height: 1.13636364;
   /* 25px / 22px */
+  letter-spacing: .05em;
 }
 
 /* ==== H4 HEADINGS ====*/
 
 h4 {
+<<<<<<< HEAD
+  font-family: "montserratextrabold", sans-serif;
+=======
   font-family: "Montserrat", sans-serif;
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
   font-size: 1.125em;
   /* 1.125x body copy size = 18px */
   line-height: 1.11111111;
+  letter-spacing: .05em;
 }
 
 /* ==== H5 HEADINGS (DISCLAIMER TEXT) ====*/
 
 h5 {
+<<<<<<< HEAD
+  font-family: "montserratregular", sans-serif;
+=======
   font-family: "Montserrat", sans-serif;
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
   font-size: 12px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  margin: 1em 0 2em 0;
+  letter-spacing: .05em;
+}
+
+<<<<<<< HEAD
+h6 {
+  font-family: "montserratregular", sans-serif;
+  font-size: 14px;
   line-height: 1.25;
   font-weight: 300;
   text-transform: uppercase;
   margin: 1em 0 2em 0;
+  letter-spacing: .05em;
 }
 
+
+/* ==== CAROUSEL / SLIDER ====*/
+
+.carousel-indicators .active {
+background-color: #111;
+}
+
+.carousel-indicators li {
+position: relative;
+-ms-flex: 0 1 auto;
+flex: 0 1 auto;
+width: .75em;
+height: .75em;
+border-radius: 1em;
+margin-right: 3px;
+margin-left: 3px;
+text-indent: -999px;
+cursor: pointer;
+background-color: transparent;
+border: 1px solid #111;
+}
+
+.carousel-indicators {
+position: absolute;
+right: 0;
+bottom: 1em;
+left: 0;
+z-index: 15;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-pack: center;
+justify-content: left;
+padding-left: 0;
+margin-right: 15%;
+margin-left: 1em;
+list-style: none;
+}
+
+/* ==== MEDIA QUERIES ====*/
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+
+=======
 /* ==== PORTFOLIO TAG ====*/
 
 .portfolioTag {
@@ -511,6 +939,7 @@ blockquote {
 
 /* ==== MEDIA QUERIES ====*/
 
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
 @media (min-width: 43.75em) {
   h1 {
     font-size: 2.5em;
@@ -565,6 +994,8 @@ blockquote {
   }
 
 
+<<<<<<< HEAD
+=======
 }
 
 @media (max-width: 56em) {
@@ -581,10 +1012,19 @@ blockquote {
   padding: 10px 15px 0px 15px;
   }
 
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
 }
 
 @media (max-width: 43.75em) {
 
+<<<<<<< HEAD
+  #logo-title a {
+  display: none;
+  }
+
+}
+
+=======
   .service-box {
     grid-column: span 6;
   }
@@ -605,12 +1045,33 @@ blockquote {
     grid-column: span 12;
     margin-bottom: 1em;
   }
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
 
-  .col-6 {
-    grid-column: span 12;
-    margin-bottom: 1em;
+@media (max-width: 30em) {
+
+<<<<<<< HEAD
+}
+
+@media(max-width:767px){
+    .webpage-description-box {
+    margin: 0 auto;
   }
-
+}
+@media(min-width:768px){
+  .webpage-description-box {
+    margin: -1em 0 0 -2em;
+  }
+}
+@media(min-width:992px){
+  .webpage-description-box {
+    margin: -1em 0 0 -2em;
+  }
+}
+@media(min-width:1200px){
+  .webpage-description-box {
+    margin: -1em 0 0 -2em;
+  }
+=======
   .col-8 {
     grid-column: span 12;
   }
@@ -657,4 +1118,5 @@ blockquote {
     background-repeat: none;
   }
 
+>>>>>>> 890ab71e2dd0981e60e9a4f77d86f00874eabd63
 }
