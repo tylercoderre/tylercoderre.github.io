@@ -52,6 +52,7 @@
 /*! ===== FONTS ===== */
 body {
   font-size: 100%;
+  cursor: url("../images/cursors/cursor-default.png") 1 1, auto;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -252,7 +253,7 @@ li.services {
 }
 
 .viewproject{
-  cursor: url("../images/cursors/view-project.png"), auto;
+  cursor: url("../images/cursors/view-project.png"), pointer;
 }
 
 .portfolioFeatured {
