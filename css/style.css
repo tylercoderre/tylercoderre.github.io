@@ -155,6 +155,13 @@ hr {
   user-select: none;
 }
 
+#work {
+  background-image: url("../images/spot-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 75%; 
+}
+
 /* ==== HEADER & NAVIGATION ====*/
 
 footer {
@@ -260,7 +267,7 @@ li.services {
 
 .portfolioTag {
   font-family: "montserratextrabold", sans-serif;
-  font-size: 1em;
+  font-size: 14px;
   /* 1.125x body copy size = 18px */
   line-height: 1;
   text-transform: uppercase;
@@ -351,7 +358,7 @@ a.footer-icon:hover {
 }
 
 
-/*! ===== BUTTONS ===== */
+/*! ===== BUTTONS & FORMS ===== */
 
 .btn {
   font-family: "montserratextrabold", sans-serif;
@@ -400,6 +407,40 @@ a.footer-icon:hover {
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
 }
 
+.btn-success {
+  border: 1px solid #111;
+  color: #fff;
+  background-color: #111;
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+.btn-success:hover {
+  transition: all ease 500ms;
+  border: 1px solid #111;
+  color: #fff;
+  background-color: #333;
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fafafa;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px dashed #111;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
 
 
 
