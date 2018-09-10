@@ -153,14 +153,9 @@ hr {
   background-position: -233px -2px;
   background-size: 20px 20px;
   user-select: none;
+    margin-bottom: 2em;
 }
 
-#work {
-  background-image: url("../images/spot-background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 75%; 
-}
 
 /* ==== HEADER & NAVIGATION ====*/
 
@@ -191,14 +186,14 @@ img {
   width: 100%; 
   max-width: 720px; 
   border: 1px solid #eee;
-  margin: 0 auto;
+  margin: 0 auto 2em auto;
 
 }
 
 .fullwidth-showcase {
   border: 1px solid #f4f4f4;
-  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 20px 20px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.03);
   margin-bottom: 2em;
 
 }
@@ -635,7 +630,7 @@ list-style: none;
 }
 @media(max-width:448px){
     .webpage-description-box {
-    margin: 0 auto;
+    margin: 0 auto 2em auto;
   }
   .device-full-width-row {
   min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png); 
@@ -654,7 +649,8 @@ list-style: none;
 
 @media(min-width:448px){
     .webpage-description-box {
-    margin: 0 auto;
+    margin: 0 auto 2em auto;
+
   }
   .device-full-width-row {
   min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png); 
@@ -674,7 +670,8 @@ list-style: none;
 
 @media(min-width:640px){
     .webpage-description-box {
-    margin: 0 auto;
+    margin: 0 auto 2em auto;
+
   }
   .device-full-width-row {
   min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png); 
@@ -692,10 +689,12 @@ list-style: none;
 }
 @media(min-width:768px){
   .webpage-description-box {
-    margin: -1em 0 0 -2em;
+    margin: 0 auto 2em auto;
+
   }
   .device-full-width-row {
-  min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png); 
+  min-height: 725px; 
+  background-image: url(../images/work/trocaire/trocaire-homepage-device.png); 
   background-position: 50% bottom; 
   background-repeat: no-repeat; 
   background-size: 80%;
@@ -711,7 +710,8 @@ list-style: none;
 }
 @media(min-width:992px){
   .webpage-description-box {
-    margin: -1em 0 0 -2em;
+    margin: 0 auto 2em auto;
+
   }
   .device-full-width-row {
   min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png); 
@@ -727,6 +727,7 @@ list-style: none;
 @media(min-width:1200px){
   .webpage-description-box {
     margin: -1em 0 0 -2em;
+    margin-bottom: 2em;
   }
   .device-full-width-row {
   min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png); 
