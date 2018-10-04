@@ -427,7 +427,7 @@ a.footer-icon:hover {
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    color: #495057;
+    color: #111;
     background-color: #fafafa;
     background-clip: padding-box;
     border: none;
@@ -445,52 +445,83 @@ a.footer-icon:hover {
     max-width: 100%;
 }
 
-.hs-input {
-    font-size: 1rem;
-    max-width: 100%;
-    background-color: #fafafa;
-    border: 1px solid #fff;
-    border-radius: 0px;
-    border-bottom: 1px dashed #111;
-    color: #111;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
+/* Labels (selects field labels and error messages) */
+.hs-form label {
+  font-family: "montserratregular", sans-serif;
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 1em 0 2em 0;
+  letter-spacing: .05em;
+}
+.hs-form .hs-form-field > label {
+  font-family: "montserratregular", sans-serif;
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 1em 0 2em 0;
+  letter-spacing: .05em;
 }
 
-.actions {
-    margin-top: 0;
-    margin-bottom: 1em;
-    padding: 1em;
-    margin-left: -1em;
+/* Inputs (selectors for all inputs)  */
+.hs-form input[type="text"],
+.hs-form input[type="password"], 
+.hs-form input[type="datetime"], 
+.hs-form input[type="datetime-local"], 
+.hs-form input[type="date"], 
+.hs-form input[type="month"], 
+.hs-form input[type="time"], 
+.hs-form input[type="week"], 
+.hs-form input[type="number"], 
+.hs-form input[type="email"], 
+.hs-form input[type="url"], 
+.hs-form input[type="search"], 
+.hs-form input[type="tel"], 
+.hs-form input[type="color"],
+.hs-form input[type="file"],
+.hs-form textarea,
+.hs-form select {
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #111;
+  background-color: #fafafa;
+  background-clip: padding-box;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px dashed #111;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.hubspot-link__container.sproket {
-    color: #9fa0a2;
-    display: none;
+/* Submit buttons (selectors for all non-CTA buttons) */
+
+body .hs-button.primary,
+body input[type="submit"],
+body input[type="button"] {
+  color: #111;
+  background-color: #fff;
+  border: 1px solid #111;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
-input.hs-input.error:focus, div.field.error input:focus, div.field.error textarea:focus, div.field.error .chzn-choices:focus, textarea.hs-input.error:focus {
-    border-bottom: 1px solid #CF4647;
+body .hs-button.primary:hover,
+body input[type="submit"]:hover,
+body input[type="button"]:hover {
+  transition: all ease 500ms;
+  border: 1px solid #111;
+  color: #fff;
+  background-color: #111;
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
 }
 
-.hs-form-af9ac53a-cbbc-446d-8f9f-5e433f4c6349_13685420-cd1b-45b0-9d2e-4e4084b4f269 .hs-button, .hs-form-af9ac53a-cbbc-446d-8f9f-5e433f4c6349_13685420-cd1b-45b0-9d2e-4e4084b4f269 .hs-button:hover, .hs-form-af9ac53a-cbbc-446d-8f9f-5e433f4c6349_13685420-cd1b-45b0-9d2e-4e4084b4f269 .hs-button:hover:not(.inactive), .hs-form-af9ac53a-cbbc-446d-8f9f-5e433f4c6349_13685420-cd1b-45b0-9d2e-4e4084b4f269 .hs-button:focus, .hs-form-af9ac53a-cbbc-446d-8f9f-5e433f4c6349_13685420-cd1b-45b0-9d2e-4e4084b4f269 .hs-button:active, .hs-form-af9ac53a-cbbc-446d-8f9f-5e433f4c6349_13685420-cd1b-45b0-9d2e-4e4084b4f269 .hs-button:active:not(.inactive):not(.link) {
-    background-image: none;
-    color: #111;
-    background-color: #fff;
-     border: 1px solid #111;
-      -webkit-box-shadow: none;
-      box-shadow: none;
-}
 
-.hs-form-af9ac53a-cbbc-446d-8f9f-5e433f4c6349_13685420-cd1b-45b0-9d2e-4e4084b4f269 .hs-button, .hs-form-af9ac53a-cbbc-446d-8f9f-5e433f4c6349_13685420-cd1b-45b0-9d2e-4e4084b4f269 .hs-button:hover, .hs-form-af9ac53a-cbbc-446d-8f9f-5e433f4c6349_13685420-cd1b-45b0-9d2e-4e4084b4f269 .hs-button:hover:not(.inactive), .hs-form-af9ac53a-cbbc-446d-8f9f-5e433f4c6349_13685420-cd1b-45b0-9d2e-4e4084b4f269 .hs-button:focus, .hs-form-af9ac53a-cbbc-446d-8f9f-5e433f4c6349_13685420-cd1b-45b0-9d2e-4e4084b4f269 .hs-button:active, .hs-form-af9ac53a-cbbc-446d-8f9f-5e433f4c6349_13685420-cd1b-45b0-9d2e-4e4084b4f269 .hs-button:active:not(.inactive):not(.link):hover  {
-    transition: all ease 500ms;
-    border: 1px solid #111;
-    color: #fff;
-    background-color: #111;
-    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
-}
+
+
+
 
 /* ==== TYPOGRAPHY ====*/
 
