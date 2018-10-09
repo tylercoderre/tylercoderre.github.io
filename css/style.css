@@ -613,170 +613,194 @@ box-shadow: 0;
  
 
 
-
 /* ==== MEDIA QUERIES ====*/
+
 @media (min-width: 1200px) {
-.container {
-max-width: 1400px;
+  .container {
+    max-width: 1400px;
+  }
 }
-}
+
+
 @media (min-width: 43.75em) {
-h1 {
-font-size: 2.5em;
-/* 2.5x body copy size = 40px */
-line-height: 1.125;
+  h1 {
+    font-size: 2.5em;
+    /* 2.5x body copy size = 40px */
+    line-height: 1.125;
+  }
+
+  h2 {
+    font-size: 2em;
+    /* 2x body copy size = 32px */
+    line-height: 1.25;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    /* 1.5x body copy size = 24px */
+    line-height: 1.25;
+  }
+
+  h4 {
+    line-height: 1.22222222;
+    /* (22px / 18px */
+  }
+
+  blockquote {
+    font-size: 1.5em;
+    /* 24px / 16px = */
+    line-height: 1.45833333;
+    /* 35px / 24px */
+  }
 }
-h2 {
-font-size: 2em;
-/* 2x body copy size = 32px */
-line-height: 1.25;
-}
-h3 {
-font-size: 1.5em;
-/* 1.5x body copy size = 24px */
-line-height: 1.25;
-}
-h4 {
-line-height: 1.22222222;
-/* (22px / 18px */
-}
-blockquote {
-font-size: 1.5em;
-/* 24px / 16px = */
-line-height: 1.45833333;
-/* 35px / 24px */
-}
-}
+
 @media (min-width: 56.25em) {
-h1 {
-font-size: 3em;
-/* 3x body copy size = 48px */
-line-height: 1.05;
-/* keep to a multiple of the 20px line height
-and something more appropriate for display headings */
+  h1 {
+    font-size: 3em;
+    /* 3x body copy size = 48px */
+    line-height: 1.05;
+    /* keep to a multiple of the 20px line height 
+    and something more appropriate for display headings */
+  }
+
+  h2 {
+    font-size: 2.25em;
+    /* 2.25x body copy size = 36px */
+    line-height: 1.25;
+  }
+
+  h3 {
+    font-size: 1.75em;
+    /* 1.75x body copy size = 28px */
+    line-height: 1.25;
+  }
+
+
 }
-h2 {
-font-size: 2.25em;
-/* 2.25x body copy size = 36px */
-line-height: 1.25;
-}
-h3 {
-font-size: 1.75em;
-/* 1.75x body copy size = 28px */
-line-height: 1.25;
-}
-}
+
 @media (max-width: 43.75em) {
-#logo-title a {
-display: none;
+
+  #logo-title a {
+  display: none;
+  }
+
 }
+
+
+@media (max-width: 30em) {
+
 }
 @media(max-width:448px){
-.webpage-description-box {
-margin: 0 auto 2em auto;
+    .webpage-description-box {
+    margin: 0 auto 2em auto;
+  }
+  .device-full-width-row {
+  min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png); 
+  background-position: 50% bottom; 
+  background-repeat: no-repeat; 
+  background-size: 100%;
 }
-.device-full-width-row {
-min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png);
-background-position: 50% bottom;
-background-repeat: no-repeat;
-background-size: 100%;
+  .device-gap {
+    margin: 0 auto;
+    height: 10em;
+  }
+  .mobile-small-gap {
+  display: block;
 }
-.device-gap {
-margin: 0 auto;
-height: 10em;
 }
-.mobile-small-gap {
-display: block;
-}
-.hero {
-padding: 10vh 0;
-}
+
 @media(min-width:448px){
-.webpage-description-box {
-margin: 0 auto 2em auto;
+    .webpage-description-box {
+    margin: 0 auto 2em auto;
+
+  }
+  .device-full-width-row {
+  min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png); 
+  background-position: 50% bottom; 
+  background-repeat: no-repeat; 
+  background-size: 95%;
 }
-.device-full-width-row {
-min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png);
-background-position: 50% bottom;
-background-repeat: no-repeat;
-background-size: 95%;
+  .device-gap {
+    margin: 0 auto;
+    height: 15em;
+  }
+  .mobile-small-gap {
+  display: block;
 }
-.device-gap {
-margin: 0 auto;
-height: 15em;
+
 }
-.mobile-small-gap {
-display: block;
-}
-}
+
 @media(min-width:640px){
-.webpage-description-box {
-margin: 0 auto 2em auto;
+    .webpage-description-box {
+    margin: 0 auto 2em auto;
+
+  }
+  .device-full-width-row {
+  min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png); 
+  background-position: 50% bottom; 
+  background-repeat: no-repeat; 
+  background-size: 95%;
 }
-.device-full-width-row {
-min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png);
-background-position: 50% bottom;
-background-repeat: no-repeat;
-background-size: 95%;
-}
-.device-gap {
-margin: 0 auto;
-height: 20em;
-}
-.mobile-small-gap {
-display: block;
+  .device-gap {
+    margin: 0 auto;
+    height: 20em;
+  }
+    .mobile-small-gap {
+  display: block;
 }
 }
 @media(min-width:768px){
-.webpage-description-box {
-margin: 0 auto 2em auto;
+  .webpage-description-box {
+    margin: 0 auto 2em auto;
+
+  }
+  .device-full-width-row {
+  min-height: 725px; 
+  background-image: url(../images/work/trocaire/trocaire-homepage-device.png); 
+  background-position: 50% bottom; 
+  background-repeat: no-repeat; 
+  background-size: 80%;
 }
-.device-full-width-row {
-min-height: 725px;
-background-image: url(../images/work/trocaire/trocaire-homepage-device.png);
-background-position: 50% bottom;
-background-repeat: no-repeat;
-background-size: 80%;
+  .device-gap {
+    margin: 0 auto;
+    height: 22em;
+  }
+      .mobile-small-gap {
+  display: none;
 }
-.device-gap {
-margin: 0 auto;
-height: 22em;
-}
-.mobile-small-gap {
-display: none;
-}
+
 }
 @media(min-width:992px){
-.webpage-description-box {
-margin: 0 auto 2em auto;
+  .webpage-description-box {
+    margin: 0 auto 2em auto;
+
+  }
+  .device-full-width-row {
+  min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png); 
+  background-position: 200% 50%; 
+  background-repeat: no-repeat; 
+  background-size: 75%;
 }
-.device-full-width-row {
-min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png);
-background-position: 200% 50%;
-background-repeat: no-repeat;
-background-size: 75%;
-}
-.device-gap {
-margin: 0 auto;
-height: 4em;
-}
-.navbar {
-  height: 46px;
-}
+  .device-gap {
+    margin: 0 auto;
+    height: 4em;
+  }
 }
 @media(min-width:1200px){
-.webpage-description-box {
-margin: -1em 0 0 -2em;
-margin-bottom: 2em;
+  .webpage-description-box {
+    margin: -1em 0 0 -2em;
+    margin-bottom: 2em;
+  }
+  .device-full-width-row {
+  min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png); 
+  background-position: 125% 50%; 
+  background-repeat: no-repeat; 
+  background-size: 60%;
 }
-.device-full-width-row {
-min-height: 725px; background-image: url(../images/work/trocaire/trocaire-homepage-device.png);
-background-position: 125% 50%;
-background-repeat: no-repeat;
-background-size: 60%;
-}
-.device-gap {
-margin: 0 auto;
-height: 4em;
-}
+  .device-gap {
+    margin: 0 auto;
+    height: 4em;
+  }
+
+
 }
